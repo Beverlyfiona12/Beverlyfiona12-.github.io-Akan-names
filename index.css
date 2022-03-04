@@ -31,3 +31,9 @@
     background: rgb(7, 7, 7);
     transition: 3s;
   }
+  .card2{
+      height: 30rem;
+     background-image: url(/Images/Rwanda.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
