@@ -32,11 +32,30 @@
     transition: 3s;
   }
   .card2{
-      height: 30rem;
-     background-image: url(/Images/Rwanda.jpg);
+      height: 20rem;
+     /* background-image: url(/Images/Rwanda.jpg); */
      background-repeat: no-repeat;
      background-size: cover;
      margin-bottom: 30px;
      margin-top: 20px;
+     
   }
-  
+  .image{
+      height: 30rem;
+      background-repeat: no-repeat;
+     background-size: auto;
+  }
+  .container{
+    position: relative;
+    background: rgb(49, 47, 47);
+    color: #fff;
+    max-width: 360px;
+    margin: 0% auto 100px;
+    padding: 80px 30px;
+    text-align: center;
+    position: relative;
+    transform: translate(-50% -50%);
+    top: 50%; 
+    margin-top: 10px;
+    
+  }
