@@ -108,6 +108,7 @@
          <div class="container">
               <h2>Enter Your Details Here!</h2>
               <form name="myForm" class="form" onsubmit="validate();">
+                <!-- PART ONE -->
                <div class="form-group">
                <label for="number">Year of Birth:</label>
               <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
@@ -115,9 +116,29 @@
             <!-- PART TWO -->
              <div class="form-group">
               <label for="month">Month of Birth:</label>
-              <input type="number" class="form-control" id="month" placeholder="Month of Birth:06" name="month">
+              <input type="number" class="form-control" id="month" placeholder="Month of Birth eg 06" name="month">
               </div>
-
+              <!-- PART THREE -->
+               <div class="form-group">
+                <label for="month">Month of Birth:</label>
+                <input type="number" class="form-control" id="month" placeholder="Date of Birth eg 05" name="Date">
+                </div>
+               <!-- PART FOUR -->
+               <div class="form-group">
+                <label for="month">Gender</label><br>
+                <div class="form-check-inline">
+                  <!-- MALE -->
+                <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                </label>
+                  <!-- FEMALE -->
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                  </label>
+                  </div>
+                  </div>
+                </div>
           </form>
          </div>   
     </div>            
